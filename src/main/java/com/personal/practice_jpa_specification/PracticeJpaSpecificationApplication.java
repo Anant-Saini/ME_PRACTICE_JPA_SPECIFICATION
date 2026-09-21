@@ -2,8 +2,10 @@ package com.personal.practice_jpa_specification;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 @SpringBootApplication
+@EnableConfigurationProperties
 public class PracticeJpaSpecificationApplication {
 
     public static void main(String[] args) {
